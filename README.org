@@ -1,0 +1,27 @@
+#+TITLE:   old-norse.el
+#+AUTHOR:  Patrick M. Niedzielski
+#+EMAIL:   patrick@pniedzielski.net
+
+Old Norse input method with postfix modifiers.  This file is based on
+the =icelandic-postfix= input method that comes included with Emacs,
+but adds input methods for =Ę=, =Ø=, =Œ=, and =Ǫ=.
+
+The following key sequences are recognized (as well as lowercase
+versions):
+
+  - =A' → Á= 
+  - =E' → É= 
+  - =I' → Í= 
+  - =O' → Ó= 
+  - =U' → Ú= 
+  - =Y' → Ý= 
+  - =E, → Ę= 
+  - =AE → Æ= 
+  - =O/ → Ø= 
+  - =OE → Œ= 
+  - =O, → Ǫ= 
+  - =D/ → Ð= (eth)
+  - =T/ → Þ= (thorn)
+
+Doubling the postfix separates the letter and postfix: e.g. =a'' →
+a'=.
